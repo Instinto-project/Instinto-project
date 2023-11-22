@@ -11,8 +11,8 @@ function App() {
     <>
       <NavBar/>
       <Footer/>
-      <MainPicture/>
-      <Categories/>
+     {/* <MainPicture/>
+      <Categories/> */}
     </>
   )
 }
