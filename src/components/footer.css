@@ -1,0 +1,24 @@
+.bottom-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.icons{
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.purple{
+    color:#A62F9A;
+}
