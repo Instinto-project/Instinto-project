@@ -1,0 +1,42 @@
+.product-pic{
+    border-radius: 8px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.info-container{
+    margin: 50px;
+    background-color: blue;
+    padding: 50px;
+}
+.details-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ball-generic{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.ball-green{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
