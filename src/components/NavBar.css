@@ -1,4 +1,5 @@
 #nav-bar {
+    height: 84px;
     display: flex;
     justify-content: space-between;
     align-items: center;

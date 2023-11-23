@@ -5,8 +5,11 @@ import './homepage.css'
 const Homepage = () =>{
     return(
         <>
+        <div className='container-homepage'>
             <MainPicture/>
+            <br />
             <Categories/>
+        </div>
         </>
         
     );
