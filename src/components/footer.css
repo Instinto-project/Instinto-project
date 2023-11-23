@@ -8,17 +8,17 @@
     flex-direction: column;
     
 }
-.icons{
+.footer-icons{
     width: 111px;
     display: flex;
     justify-content: space-between;
 }
 
 
-.text-center{
+.footer-text-center{
     text-align: center;
 }
 
-.purple{
+.footer-purple-text{
     color:#A62F9A;
 }
