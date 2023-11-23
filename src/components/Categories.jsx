@@ -1,4 +1,5 @@
 import './categories.css'
+import {Link} from 'react-router-dom'
 
 const Categories = () =>{
     const categories = ["Categorize", "Blusas", "Pantalones", "Categorize", "Chaquetas", "Medias", "Guantes", "Básicos"];
@@ -9,9 +10,12 @@ const Categories = () =>{
                 {
                     categories.map((eachCategory, index)=>{
                         return ( 
+                            <Link to="/product">
                             <button className={colors[index % colors.length] + " category-btn"} >
-                                <p>{eachCategory}</p>
+                                <p className='category-text'>{eachCategory}</p>
                             </button>
+                            </Link>
+                            
                         )
                         }
                     )
