@@ -4,6 +4,7 @@ const ProductPage = () => {
     return (
         <div className='main-container'>
             <div className='product-container'>
+                <h1 className='product-name-mobile'>Pichi Rapunzel</h1>
                 <img className="product-pic" src="./src/assets/productPage/product1.png" alt="product image" />
                 <div className='info-container'>
                     <h1 className='product-name'>Pichi Rapunzel</h1>
