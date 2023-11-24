@@ -113,6 +113,7 @@
 
 .product-pic-suggestion-container {
     display: flex;
+    width:100%;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -120,8 +121,7 @@
 }
 
 .product-pic-suggestion {
-    width: 153px;
-    height: 143px;
+    width: 20%;
     border-radius: 8px;
 }
 
@@ -175,7 +175,7 @@
     .product-pic-suggestion {
         /* width: 153px; */
         width: 20%;
-        object-fit: cover;
+        /* object-fit: cover; */
         border-radius: 8px;
     }
 }
