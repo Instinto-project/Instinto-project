@@ -4,7 +4,7 @@ function NavBar() {
     return (
         <nav id="nav-bar">
         <Link to="/">
-            <img src="./src/assets/navbar/LogoInstinto.MOBIL.png" alt="logo tienda" />
+            <img src="/navbar/LogoInstinto.MOBIL.png" alt="logo tienda" />
         </Link>
             <div className='icons'>
                 <img src="/navbar/Search.png" className='icon' alt="logo search" />
