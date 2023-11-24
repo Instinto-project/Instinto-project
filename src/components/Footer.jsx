@@ -8,9 +8,9 @@ const Footer = () => {
             </section>
             <section className='bottom-footer-flex'>
                 <div className='footer-icons'>
-                    <img src="./src/assets/footer/Facebook_MOBIL.png" alt="Facebook logo" />
-                    <img src="./src/assets/footer/ig_icon_MOBIL.png" alt="Instagram logo" />
-                    <img src="./src/assets/footer/Pinterest_MOBIL.png" alt="Pinterest logo" />
+                    <img src="/footer/Facebook_MOBIL.png" alt="Facebook logo" />
+                    <img src="/footer/ig_icon_MOBIL.png" alt="Instagram logo" />
+                    <img src="/footer/Pinterest_MOBIL.png" alt="Pinterest logo" />
                 </div>
                 <div>
                     <p>Terminos legales</p>

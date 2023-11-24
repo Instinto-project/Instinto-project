@@ -7,10 +7,10 @@ function NavBar() {
             <img src="./src/assets/navbar/LogoInstinto.MOBIL.png" alt="logo tienda" />
         </Link>
             <div className='icons'>
-                <img src="./src/assets/navbar/Search.png" className='icon' alt="logo search" />
-                <img src="./src/assets/navbar/Profile.png" className='icon' alt="logo profile" />
-                <img src="./src/assets/navbar/ShoppingCart.png" className='icon-cart' alt="logo cart" />
-                <img src="./src/assets/navbar/hamburguerMenuMOBIL.png" className='icon-menu' alt="logo burger-menu" />
+                <img src="/navbar/Search.png" className='icon' alt="logo search" />
+                <img src="/navbar/Profile.png" className='icon' alt="logo profile" />
+                <img src="/navbar/ShoppingCart.png" className='icon-cart' alt="logo cart" />
+                <img src="/navbar/hamburguerMenuMOBIL.png" className='icon-menu' alt="logo burger-menu" />
             </div>
         </nav>
     )
