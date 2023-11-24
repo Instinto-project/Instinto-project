@@ -4,7 +4,7 @@ const ProductPage = () => {
     return (
         <div className='main-container'>
             <div className='product-container'>
-                <img className="product-pic" src="src/assets/productPage/product1.png" alt="product image" />
+                <img className="product-pic" src="./src/assets/productPage/product1.png" alt="product image" />
                 <div className='info-container'>
                     <h1 className='product-name'>Pichi Rapunzel</h1>
                     <p className='product-description'>Una prenda gruesa perfecta para ahora que entramos a una temperatúra más fresca. Diseñado y confeccionado en Barcelona.</p>
@@ -32,10 +32,10 @@ const ProductPage = () => {
                     <br/>
                     <h2 className='product-text-suggestion'>Completa el look</h2>
                     <div className='product-pic-suggestion-container'>
-                        <img className="product-pic-suggestion" src="src/assets/productPage/product2.png" alt="product image2" />
-                        <img className="product-pic-suggestion" src="src/assets/productPage/product3.png" alt="product image3" />
-                        <img className="product-pic-suggestion" src="src/assets/productPage/product4.png" alt="product image4" />
-                        <img className="product-pic-suggestion" src="src/assets/productPage/product5.png" alt="product image5" />
+                        <img className="product-pic-suggestion" src="./src/assets/productPage/product2.png" alt="product image2" />
+                        <img className="product-pic-suggestion" src="./src/assets/productPage/product3.png" alt="product image3" />
+                        <img className="product-pic-suggestion" src="./src/assets/productPage/product4.png" alt="product image4" />
+                        <img className="product-pic-suggestion" src="./src/assets/productPage/product5.png" alt="product image5" />
                     </div>
                 </div>
             </div>
