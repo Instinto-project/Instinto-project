@@ -25,3 +25,27 @@
     font-size: 25px;
     font-weight: 700;
 }
+.icon-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+
+#nav-bar{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.icon-cart{
+    display: none;
+}
+.icon{
+    display: none;
+}
+
+.icon-menu {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+}
